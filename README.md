@@ -1,6 +1,7 @@
 # zdemo-study
 
 图文详情--下边的三角图标-实现
+参考链接:http://m.mdscj.com/proDetail?channel=amcdl&productId=380682
 
 
 CSS主要代码：
