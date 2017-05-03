@@ -20,6 +20,7 @@
 --------------------
 
 
-####　yunsuanfu.html的运行结果如下：
-![](https://github.com/xiangruding123/zdemo-study/blob/master/img/20.png?raw=true)
+####　yunsuanfu.html的运行结果如下：　　
+
+![yunsuanfu.html的运行结果](https://github.com/xiangruding123/zdemo-study/blob/master/img/20.png?raw=true)
 
