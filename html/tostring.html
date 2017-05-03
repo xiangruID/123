@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var e=123;
+			var x=e.toString();
+			var y=e.toLocaleString();
+						
+			console.log("1----"+x+"类型为："+typeof(x));
+			//"123"
+			console.log("2----"+y+"类型为："+typeof(y));
+			//"123"
+			
+			//=========================================
+			var aa=[1,2,3];
+			var aax=aa.toString();
+			var aay=aa.toLocaleString();
+						
+			console.log("3----"+x+"类型为："+typeof(aax));
+			//"1,2,3"
+			console.log("4----"+y+"类型为："+typeof(aay));
+			//"1,2,3"
+			//=======================================
+			
+			var sd=new Date()
+			console.log("5----"+sd);
+			
+			console.log("6----"+sd.toLocaleString());
+			//"2017/2/15 上午11:21:31"
+			console.log("7----"+sd.toString());
+			//"Wed Feb 15 2017 11:21:31 GMT+0800 (CST)"
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p></p>
+		<script src="../javascript/jquery-2.1.0.js"></script>
+		<script src="../javascript/m-ajax.js"></script>
+		<script>
+			var URL = "http://www.fenhongshop.com/api/index.php?act=common_goods&op=get_goods_class&pid=1730&area=1&flag=wap";
+			var data={
+				act:"common_goods",
+				op:"get_goods_class",
+				pid:"1730",
+				area:"1",
+				flag:"wap"
+			}
+			
+			function fun(){
+				console.log("1111callback1111111")
+			}
+			
+			ajaxGet(URL, data, fun(), false);
+			
+			
+		</script>
+	</body>
+</html>
